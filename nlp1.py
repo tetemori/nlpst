@@ -1,3 +1,3 @@
-alpha = "stressed"
-alpha = alpha[::-1]
-print(alpha)
+alp = "パタトクカシーー"
+alp = alp[::2]
+print(alp)
