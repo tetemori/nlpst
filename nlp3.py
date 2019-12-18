@@ -1,6 +1,8 @@
-alp01 = "パトカー"
-alp02 = "タクシー"
-ans=""
-for al, al2 in zip(alp01, alp02):
-    ans = ans + al + al2
+alp = "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
+ry = alp.replace(".", "").replace(",", "")
+ry = ry.split()
+ans: str = ""
+for y in ry:
+    ans = ans + str(len(y))
+
 print(ans)
